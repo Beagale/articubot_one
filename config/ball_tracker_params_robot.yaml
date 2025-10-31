@@ -5,10 +5,10 @@ detect_ball:
     x_max: 100
     y_min: 0
     y_max: 100
-    h_min: 26
-    h_max: 65
-    s_min: 126
-    s_max: 255
+    h_min: 22
+    h_max: 49
+    s_min: 76
+    s_max: 151
     v_min: 49
     v_max: 255
     sz_min: 2
