@@ -1,0 +1,178 @@
+[0.000000] (-) TimerEvent: {}
+[0.000972] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.001931] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.070429] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[0.072816] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/robot_ws/src/articubot_one', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws/src/articubot_one/install/articubot_one'], 'cwd': '/home/ubuntu/robot_ws/src/articubot_one/build/articubot_one', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '1413'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:appmenu-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1330'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('WINDOWID', '35651590'), ('JOURNAL_STREAM', '9:31710'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1490,unix/ubuntu:/tmp/.ICE-unix/1490'), ('GDM_LANG', 'en'), ('INVOCATION_ID', 'e9fe630ede1c4d16a0a85ff788b51ff4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/ubuntu/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ubuntu'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/rplidar_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/robot_ws/src/articubot_one/build/articubot_one'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/rplidar_ros:/opt/ros/foxy')]), 'shell': False}
+[0.099307] (-) TimerEvent: {}
+[0.200700] (-) TimerEvent: {}
+[0.301564] (-) TimerEvent: {}
+[0.402577] (-) TimerEvent: {}
+[0.503505] (-) TimerEvent: {}
+[0.604424] (-) TimerEvent: {}
+[0.705644] (-) TimerEvent: {}
+[0.806844] (-) TimerEvent: {}
+[0.874629] (articubot_one) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.907008] (-) TimerEvent: {}
+[1.007808] (-) TimerEvent: {}
+[1.108895] (-) TimerEvent: {}
+[1.209714] (-) TimerEvent: {}
+[1.310630] (-) TimerEvent: {}
+[1.411532] (-) TimerEvent: {}
+[1.512776] (-) TimerEvent: {}
+[1.613712] (-) TimerEvent: {}
+[1.673308] (articubot_one) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.705837] (articubot_one) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.713934] (-) TimerEvent: {}
+[1.815268] (-) TimerEvent: {}
+[1.944905] (-) TimerEvent: {}
+[2.045873] (-) TimerEvent: {}
+[2.069706] (articubot_one) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.076107] (articubot_one) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.146232] (-) TimerEvent: {}
+[2.247026] (-) TimerEvent: {}
+[2.347961] (-) TimerEvent: {}
+[2.399837] (articubot_one) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.448136] (-) TimerEvent: {}
+[2.455200] (articubot_one) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.500557] (articubot_one) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.548322] (-) TimerEvent: {}
+[2.618151] (articubot_one) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.648501] (-) TimerEvent: {}
+[2.749365] (-) TimerEvent: {}
+[2.850404] (-) TimerEvent: {}
+[2.951506] (-) TimerEvent: {}
+[2.962359] (articubot_one) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.966931] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.051638] (-) TimerEvent: {}
+[3.152420] (-) TimerEvent: {}
+[3.253229] (-) TimerEvent: {}
+[3.315559] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.352166] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.353317] (-) TimerEvent: {}
+[3.353929] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.401297] (articubot_one) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.453520] (-) TimerEvent: {}
+[3.554250] (-) TimerEvent: {}
+[3.558699] (articubot_one) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.559546] (articubot_one) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.654387] (-) TimerEvent: {}
+[3.755070] (-) TimerEvent: {}
+[3.855858] (-) TimerEvent: {}
+[3.956502] (-) TimerEvent: {}
+[4.057421] (-) TimerEvent: {}
+[4.158443] (-) TimerEvent: {}
+[4.259060] (-) TimerEvent: {}
+[4.359729] (-) TimerEvent: {}
+[4.436348] (articubot_one) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.459901] (-) TimerEvent: {}
+[4.560561] (-) TimerEvent: {}
+[4.661448] (-) TimerEvent: {}
+[4.762160] (-) TimerEvent: {}
+[4.763032] (articubot_one) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.862332] (-) TimerEvent: {}
+[4.963111] (-) TimerEvent: {}
+[5.063865] (-) TimerEvent: {}
+[5.164555] (-) TimerEvent: {}
+[5.262971] (articubot_one) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.264673] (-) TimerEvent: {}
+[5.350405] (articubot_one) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.351931] (articubot_one) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[5.352966] (articubot_one) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.364937] (-) TimerEvent: {}
+[5.430498] (articubot_one) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[5.431684] (articubot_one) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[5.443163] (articubot_one) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.465194] (-) TimerEvent: {}
+[5.466182] (articubot_one) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.478995] (articubot_one) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[5.558316] (articubot_one) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.558923] (articubot_one) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.565331] (-) TimerEvent: {}
+[5.570769] (articubot_one) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.588632] (articubot_one) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.602268] (articubot_one) StdoutLine: {'line': b'-- Generating done\n'}
+[5.608883] (articubot_one) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/robot_ws/src/articubot_one/build/articubot_one\n'}
+[5.622365] (articubot_one) CommandEnded: {'returncode': 0}
+[5.624524] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'build'}
+[5.627028] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/robot_ws/src/articubot_one/build/articubot_one', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/robot_ws/src/articubot_one/build/articubot_one', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '1413'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:appmenu-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1330'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('WINDOWID', '35651590'), ('JOURNAL_STREAM', '9:31710'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1490,unix/ubuntu:/tmp/.ICE-unix/1490'), ('GDM_LANG', 'en'), ('INVOCATION_ID', 'e9fe630ede1c4d16a0a85ff788b51ff4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/ubuntu/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ubuntu'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/rplidar_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/robot_ws/src/articubot_one/build/articubot_one'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/rplidar_ros:/opt/ros/foxy')]), 'shell': False}
+[5.665645] (-) TimerEvent: {}
+[5.766508] (-) TimerEvent: {}
+[5.800280] (articubot_one) CommandEnded: {'returncode': 0}
+[5.803276] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'install'}
+[5.848315] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/robot_ws/src/articubot_one/build/articubot_one'], 'cwd': '/home/ubuntu/robot_ws/src/articubot_one/build/articubot_one', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '1413'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:appmenu-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1330'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('WINDOWID', '35651590'), ('JOURNAL_STREAM', '9:31710'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1490,unix/ubuntu:/tmp/.ICE-unix/1490'), ('GDM_LANG', 'en'), ('INVOCATION_ID', 'e9fe630ede1c4d16a0a85ff788b51ff4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/ubuntu/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ubuntu'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/rplidar_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/robot_ws/src/articubot_one/build/articubot_one'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/rplidar_ros:/opt/ros/foxy')]), 'shell': False}
+[5.866772] (-) TimerEvent: {}
+[5.889959] (articubot_one) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.891531] (articubot_one) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.895635] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml\n'}
+[5.931720] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml\n'}
+[5.967014] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/drive_bot.rviz\n'}
+[5.968408] (-) TimerEvent: {}
+[6.004711] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/empty.yaml\n'}
+[6.039457] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[6.068526] (-) TimerEvent: {}
+[6.074470] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/gazebo_params.yaml\n'}
+[6.112579] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/joystick.yaml\n'}
+[6.147717] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/main.rviz\n'}
+[6.168837] (-) TimerEvent: {}
+[6.182831] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/map.rviz\n'}
+[6.220456] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml\n'}
+[6.255598] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/my_controllers.yaml\n'}
+[6.268942] (-) TimerEvent: {}
+[6.290565] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/nav2_params.yaml\n'}
+[6.327625] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/twist_mux.yaml\n'}
+[6.364615] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/view_bot.rviz\n'}
+[6.369272] (-) TimerEvent: {}
+[6.403100] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/camera.xacro\n'}
+[6.441083] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/depth_camera.xacro\n'}
+[6.469448] (-) TimerEvent: {}
+[6.475835] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/face.xacro\n'}
+[6.514538] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/gazebo_control.xacro\n'}
+[6.548847] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/inertial_macros.xacro\n'}
+[6.569907] (-) TimerEvent: {}
+[6.584787] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/lidar.xacro\n'}
+[6.621791] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/robot.urdf.xacro\n'}
+[6.656787] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/robot_core.xacro\n'}
+[6.670110] (-) TimerEvent: {}
+[6.694668] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/ros2_control.xacro\n'}
+[6.733440] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py\n'}
+[6.770158] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/launch/camera.launch.py\n'}
+[6.770985] (-) TimerEvent: {}
+[6.805864] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/launch/joystick.launch.py\n'}
+[6.870212] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py\n'}
+[6.871100] (-) TimerEvent: {}
+[6.908265] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py\n'}
+[6.944915] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/launch/localization_launch.py\n'}
+[6.971314] (-) TimerEvent: {}
+[6.978719] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/launch/navigation_launch.py\n'}
+[7.017283] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/launch/online_async_launch.py\n'}
+[7.054775] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/launch/rplidar.launch.py\n'}
+[7.071553] (-) TimerEvent: {}
+[7.088615] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/launch/rsp.launch.py\n'}
+[7.127208] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/worlds/empty.world\n'}
+[7.163195] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/worlds/obstacles.world\n'}
+[7.171808] (-) TimerEvent: {}
+[7.199498] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one\n'}
+[7.238589] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one\n'}
+[7.272035] (-) TimerEvent: {}
+[7.274773] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh\n'}
+[7.313607] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv\n'}
+[7.350512] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/path.sh\n'}
+[7.372393] (-) TimerEvent: {}
+[7.387282] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/path.dsv\n'}
+[7.425023] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.bash\n'}
+[7.460985] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.sh\n'}
+[7.472752] (-) TimerEvent: {}
+[7.497220] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.zsh\n'}
+[7.535736] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.dsv\n'}
+[7.571597] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/package.dsv\n'}
+[7.572949] (-) TimerEvent: {}
+[7.607869] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/ament_index/resource_index/packages/articubot_one\n'}
+[7.648040] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake\n'}
+[7.673153] (-) TimerEvent: {}
+[7.684025] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake\n'}
+[7.722308] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/package.xml\n'}
+[7.762615] (articubot_one) CommandEnded: {'returncode': 0}
+[7.773290] (-) TimerEvent: {}
+[7.874150] (-) TimerEvent: {}
+[7.875192] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 0}
+[7.878456] (-) EventReactorShutdown: {}
